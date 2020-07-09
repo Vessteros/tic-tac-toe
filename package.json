@@ -1,0 +1,42 @@
+{
+  "name": "tic-tac-toe",
+  "description": "Крестики-нолики",
+  "version": "1.0.0",
+  "author": "Vessteros",
+  "license": "MEH",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-cli --mode=development --watch",
+    "build": "cross-env webpack --progress --hide-modules --mode=production"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "typescript": "^3.9.3",
+    "vue": "^2.6.11",
+    "element-ui": "^2.13.1",
+    "@fortawesome/fontawesome-free": "^5.12.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "sass-loader": "^6.0.6",
+    "ts-loader": "^7.0.4",
+    "vue-cli": "^2.9.6",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
